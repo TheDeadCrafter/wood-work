@@ -1,0 +1,31 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffcc99;
+}
+
+.expand {
+	overflow: hidden;
+	-webkit-transition: height 2s;
+	transition: height2s;
+}
+
+
+.expand:hover {
+	height: 500px;
+}
+
+.back-change {
+	-webkit-transition: background-color 0.5s;
+        transition: background-color 0.5s;
+}
+
+.back-change:hover {
+        background-color: #ebccad;
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+width: 70%;
+margin: auto;
+}
+
